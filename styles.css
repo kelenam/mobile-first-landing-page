@@ -13,7 +13,30 @@ body,p,a,ul,li {
 li {
     list-style-type: none;
 }
- 
+/* fonts */
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url('assets/fonts/Rubik-Regular.ttf');
+}
+h1,h2,h3,h4 {
+    color: #DDDBFF;
+    font-weight: normal;
+  }
+p,a,li {
+    color: #9893D8;
+}
+h1,h3 {
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.1.em;
+}
+.leading {
+    font-size: 1.1em;
+}
 /* base styles */
 body {
     background-color: var(--secondary);
@@ -42,30 +65,7 @@ input,textarea {
     border: 2px solid #9893D8;
     color: #f2f2f2;
 }
-/* fonts */
-@font-face {
-    font-family: 'Rubik Regular';
-    src: url('/assets/fonts/Rubik-Regular.ttf');
-}
-h1,h2,h3,h4 {
-    color: #DDDBFF;
-    font-weight: normal;
-  }
-p,a,li {
-    color: #9893D8;
-}
-h1,h3 {
-    font-size: 1.2em;
-}
-h2 {
-    font-size: 1.6em;
-}
-h4 {
-    font-size: 1.1.em;
-}
-.leading {
-    font-size: 1.1em;
-}
+
 
 /* mobile styles */
 .grid {
